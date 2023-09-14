@@ -39,7 +39,7 @@ const VideoCard = ({video:{id:videoId , snippet}}) => {
                 {snippet?.channelTitle || demoChannelTitle}
 
                 <CheckCircle
-                  sx={{Color:'gray', ml:'5px', fontSize:'10px'}}
+                  sx={{Color:'gray', ml:'5px', fontSize:'12px'}}
                 />
             </Typography>
             
