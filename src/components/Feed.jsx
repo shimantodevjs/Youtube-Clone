@@ -13,10 +13,10 @@ function Feed() {
   }, [selectedCategory])
 
   return (
-    <Stack sx={{ flexDirection: { sx: 'column', md: 'row' } }}>
+    <Stack sx={{ flexDirection: { sx: 'column', md: 'row' } , height:{ sx: 'auto' , md:'85%'}} }>
       <Box
         sx={{
-          height: { sx: 'auto', md: '89vh' },
+          height: { sx: 'auto', md: '92vh' },
           borderRight: '1px solid #3d3d3d',
           px: { sx: 0, md: 2 },
         }}
@@ -27,7 +27,7 @@ function Feed() {
         />
 
         <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: "#fff", }}>
-          Copyright © 2023 shimantoDevJS
+          Copyright © 2023 shimantoDEVJS
         </Typography>
 
       </Box>

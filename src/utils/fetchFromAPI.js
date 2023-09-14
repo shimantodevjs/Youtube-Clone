@@ -18,3 +18,4 @@ export const fetchFromAPI= async(url)=>{
 
     return data;
 }
+
